@@ -1,0 +1,109 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 150px 25px 80px 300px 300px 30px;
+    /* background-color: black; */
+    height: 875px;
+    row-gap: 0.5rem;
+}
+.header{
+    grid-column: 1/span 4 ;
+    /* background-color: aqua; */
+}
+.cards{
+    grid-row-start: 4;
+    grid-column: 2/span 4;
+    padding-top: 1rem;
+    border: 1px solid #02282c;
+    border-radius: .3rem;
+    text-align: center;
+    max-width: 300px;
+    left: 40%;
+    margin-left: 9rem;
+    background-color: #0093AB;
+}
+.sub-card{
+    grid-row-start: 5;
+    padding-top: 1rem;
+    border: 1px solid #02282c;
+    border-radius: .3rem;
+    max-width: 250px;
+    text-align: center;
+    left: 40%;
+    background-color: #0093AB;
+}
+.img{
+    height: 200px;
+}
+.positions2{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #EEEEEE;
+    padding: 0.5rem 0.5rem 0rem 0.5rem ;
+}
+.positions{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #EEEEEE;
+    padding: 0.5rem 0.5rem 0rem 0.5rem ;
+}
+.top-intro{
+    text-align: center;
+    font-family: ontserrat, sans-serif;
+    padding-top: 2rem;
+    color:  #FF5F00;
+}
+.body{
+    background-color: #EEEEEE;
+    margin-left: 6rem;
+}
+.title{
+    font-size: 60px;
+    color: #B20600;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00092C;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 15px;
+}
+li a:hover {
+    background-color: #3a3f58;
+}
+.active {
+    background-color: rgb(44, 6, 6);
+}
+.navigation{
+    grid-column: 1 /span 4;
+}
+.title-njack{
+    font-size: 50px;
+    color: #FF5F00;
+    text-align: center;
+    padding-top: 1rem;
+}
+.foot{
+    /* background-color: #FF5F00; */
+    grid-column: 1/ span 4;
+    text-align: right;
+    padding-right: 2rem;
+}
+.footer{
+    height: 30px;
+    width: 30px;
+}
